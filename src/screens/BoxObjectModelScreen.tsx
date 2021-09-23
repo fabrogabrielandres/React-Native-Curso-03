@@ -1,10 +1,23 @@
 import React from 'react'
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export const BoxObjectModelScreen = () => {
     return (
+        //bandera argentina 
         <View>
-            <Text>box</Text>
+            <Text style={styles.title}>box</Text>
         </View>
     )
 }
+
+
+const styles = StyleSheet.create({
+    title: {
+        fontSize: 20
+    },
+    container:{
+
+    }
+})
+
+

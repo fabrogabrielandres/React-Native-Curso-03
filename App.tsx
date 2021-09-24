@@ -9,13 +9,17 @@ import PositionScreen from './src/screens/PositionScreen';
 import EjerB from './src/screens/EjerB';
 import EjerC from './src/screens/EjerC';
 import EjerD from './src/screens/EjerD';
+import EjerE from './src/screens/EjerE';
+import EjerF from './src/screens/EjerF';
+import EjerG from './src/screens/EjerG';
+import EjerH from './EjerH';
 
 
 export const App = () => {
-const {width,height} = useWindowDimensions()
+  const { width, height } = useWindowDimensions()
 
   return (
-    <SafeAreaView style={{width:width,height:height}}>
+    <SafeAreaView style={{ width: width, height: height }}>
       {/* <HolaMundoScreen /> */}
       {/* <ContadorScreen /> */}
       {/* <BoxObjectModelScreen /> */}
@@ -24,7 +28,11 @@ const {width,height} = useWindowDimensions()
       {/* <EjerA/> */}
       {/* <EjerB/> */}
       {/* <EjerC/> */}
-      <EjerD/>
+      {/* <EjerD/> */}
+      {/* <EjerE/> */}
+      {/* <EjerF/> */}
+      {/* <EjerG /> */}
+      <EjerH/>
     </SafeAreaView>
   )
 }

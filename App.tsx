@@ -6,6 +6,10 @@ import { ContadorScreen } from './src/screens/ContadorScreen';
 import DimencionesScreen from './src/screens/DimencionesScreen';
 import EjerA from './src/screens/EjerA';
 import PositionScreen from './src/screens/PositionScreen';
+import EjerB from './src/screens/EjerB';
+import EjerC from './src/screens/EjerC';
+import EjerD from './src/screens/EjerD';
+
 
 export const App = () => {
 const {width,height} = useWindowDimensions()
@@ -17,7 +21,10 @@ const {width,height} = useWindowDimensions()
       {/* <BoxObjectModelScreen /> */}
       {/* <DimencionesScreen/> */}
       {/* <PositionScreen/> */}
-      <EjerA/>
+      {/* <EjerA/> */}
+      {/* <EjerB/> */}
+      {/* <EjerC/> */}
+      <EjerD/>
     </SafeAreaView>
   )
 }

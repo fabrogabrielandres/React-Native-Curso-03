@@ -1,21 +1,23 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, useWindowDimensions } from 'react-native';
 import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
 // import { HolaMundoScreen } from './src/screens/HolaMundoScreen';
 import { ContadorScreen } from './src/screens/ContadorScreen';
 import DimencionesScreen from './src/screens/DimencionesScreen';
+import EjerA from './src/screens/EjerA';
 import PositionScreen from './src/screens/PositionScreen';
 
 export const App = () => {
-
+const {width,height} = useWindowDimensions()
 
   return (
-    <SafeAreaView style={{flex:1}}>
+    <SafeAreaView style={{width:width,height:height}}>
       {/* <HolaMundoScreen /> */}
       {/* <ContadorScreen /> */}
       {/* <BoxObjectModelScreen /> */}
       {/* <DimencionesScreen/> */}
-      <PositionScreen/>
+      {/* <PositionScreen/> */}
+      <EjerA/>
     </SafeAreaView>
   )
 }
